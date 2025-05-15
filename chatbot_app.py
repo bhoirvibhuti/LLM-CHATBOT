@@ -1,8 +1,6 @@
 import streamlit as st
-import openai
-
 st.set_page_config(page_title="LLM Chatbot", layout="wide")
-st.title("🤖 LLM Chatbot")
+st.title(" LLM Chatbot")
 
 # Get API key from secrets
 openai.api_key = st.secrets["OPENAI_API_KEY"]
